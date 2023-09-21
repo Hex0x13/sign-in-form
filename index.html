@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="image/odin-lined.png">
+  <link rel="stylesheet" href="main.css">
+  <title>Sign In Form</title>
+</head>
+
+<body>
+  <main>
+    <section class="logo-section">
+      <img src="./image/halie-west.jpg" alt="" class="background-image">
+      <div class="logo">
+        <img src="./image/odin-lined.png"
+          alt="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png">
+        <div class="text">ODIN</div>
+      </div>
+
+      <footer>
+        Photo by <a href="">Halle West</a> on <a href="">Unsplash</a>
+      </footer>
+
+    </section>
+    <section class="information-section">
+
+      <div class="description">
+        <p>
+          This is not a real online service&excl; You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up now
+          to get started&period;
+        </p>
+        <p>You <i>Know</i> you want</p>
+      </div>
+
+      <div class="form">
+        <div class="caption">Let&apos;s do this</div>
+        <form action="." method="post">
+          <div>
+            <label for="firstname">FIRST NAME</label>
+            <input id="firstname" type="text">
+          </div>
+          <div>
+            <label for="lastname">LAST NAME</label>
+            <input id="lastname" type="text">
+          </div>
+          <div>
+            <label for="phone-number">PHONE NUMBER</label>
+            <input id="phone-number" type="tel">
+          </div>
+          <div>
+            <label for="email">EMAIL</label>
+            <input id="email" type="email">
+          </div>
+          <div>
+            <label for="password">PASSWORD</label>
+            <input id="password" type="password" required>
+            <p class="warn">&ast;Password doesn&apos;t match</p>
+          </div>
+          <div>
+            <label for="confirm-pass">CONFIRM PASSWORD</label>
+            <input id="confirm-pass" type="password" required>
+          </div>
+        </form>
+      </div>
+
+      <div class="create-account">
+        <button type="submit">Create Account</button>
+        <p>
+          Already have an Account&quest; <a href="#">Log in</a>
+        </p>
+      </div>
+
+    </section>
+  </main>
+</body>
+
+</html>
